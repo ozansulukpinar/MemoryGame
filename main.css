@@ -1,0 +1,27 @@
+.box{
+    width: 4vw;
+    height: 4vw;
+    border: solid 0.1px black;
+    display: inline-flex;
+    margin: 0.5vw;
+}
+
+span{
+    display: none;
+    margin: 0 auto;
+    font-size: 3.5vw;
+}
+
+.board{
+    display: inline-flex;
+    position: absolute;
+    top: 35%;
+}
+
+.board-left{
+    left: 30%;
+}
+
+.board-right {
+    right: 30%;
+}
